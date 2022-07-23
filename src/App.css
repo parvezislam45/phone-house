@@ -1,0 +1,22 @@
+.nav{
+    font-family: 'Berkshire Swash'
+}
+.bg-banner {
+    background-image: url('../src/Asset/0x0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+.image {
+    background-image: url('../src/Asset/camera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.title{
+    font-family: 'Diplomata SC';
+}
+/* ------------------ Swiper----------------------- */
+
+
+/* --------------------- Swiper ---------------------- */
