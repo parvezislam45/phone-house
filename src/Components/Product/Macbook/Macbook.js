@@ -5,7 +5,7 @@ import LaptopSlider from './LaptopSlider';
 const Macbook = () => {
     return (
         <div>
-            <LaptopSlider></LaptopSlider>
+            <LaptopSlider className="laptop"></LaptopSlider>
             <AllLaptop></AllLaptop>
         </div>
     );

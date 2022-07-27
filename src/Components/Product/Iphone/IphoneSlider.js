@@ -1,10 +1,11 @@
 import React from 'react';
+import AutoPlay from '../../Autoplay/AutoPlay';
 
 const IphoneSlider = () => {
     return (
         <div>
-            
-        </div>
+            <AutoPlay></AutoPlay>
+      </div>
     );
 };
 

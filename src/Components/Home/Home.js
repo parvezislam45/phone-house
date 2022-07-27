@@ -2,13 +2,14 @@ import React from 'react';
 import Animated from './Animated';
 import GlassCart from './GlassCart';
 import Banner from './Banner';
-import Comingsoon from './Comingsoon';
 import Count from './Count';
 import Footer from './Footer';
-import Item from './Item';
 import Section1 from './Section1';
 import Swip from './Swip';
 import Catagory from './Catagory';
+import New from './New';
+import Offer from './Offer';
+import Slider from './Slider'
 
 
 const Home = () => {
@@ -24,21 +25,23 @@ const Home = () => {
             </div> 
             <Swip></Swip>
             <div className='mt-3'>
-                <h1 className="text-center text-4xl">Social Platform</h1>
+                <h1 className="text-center text-4xl">Service</h1>
+                <Count></Count>
             </div>
-            <div className='mt-3'>
+            <div className='mt-6'>
                 <h1 className="text-center text-4xl">Catagory</h1>
+                <Slider></Slider>
             </div>
-            <Catagory></Catagory>
-            <Count></Count>
-            <div className='mt-3'>
-                <h1 className="text-center text-4xl">Latest Customer</h1>
-            </div> 
-            <Item></Item> 
-           <div className="mt-2">
-            <Comingsoon></Comingsoon>
-           </div>
-           <div className="mt-2">
+            <div className='mt-6'>
+                <h1 className="text-center text-4xl">Latest Offer</h1>
+            </div>  
+            <Offer></Offer> 
+            <div className="mt-5">
+            <h1 className="text-center text-4xl">New Arrivals</h1>
+            <New></New>
+            </div>
+           <div className="mt-6">
+           <h1 className="text-center text-4xl">Our Brands Partner</h1>
             <Section1></Section1>
            </div>
            <GlassCart></GlassCart>

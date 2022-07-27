@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "3d-react-carousal": "^5.0.0",
     "daisyui": "^2.15.4",
+    "embla-carousel-autoplay": "^7.0.0-rc05",
+    "embla-carousel-react": "^7.0.0-rc05",
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.0.27",
     "react": "^18.2.0",
@@ -17,7 +19,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-simple-image-slider": "^2.4.1",
-    "swiper": "^6.8.4",
+    "swiper": "^7.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

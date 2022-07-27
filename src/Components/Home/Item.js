@@ -1,113 +1,77 @@
-import React from 'react';
-
-
+import React from "react";
 
 const Item = () => {
   return (
-    <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
-    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800">
-        <div class="flex-shrink-0">
-        <div class="stat">
-        <div class="stat-figure text-cyan-300">
-        <div class="flow-root">
-        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
-            <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="https://static.toiimg.com/thumb/56517891.cms?width=170&height=240" alt="Neil image"/>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Provash
-                        </p>
-                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                            email@provash.com
-                        </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                        $7320
-                    </div>
+    <div class="container mx-auto grid grid-cols-2 gap-10 mt-20 gap-y-15">
+      <div class="card w-full shadow-xl image-full">
+        <figure>
+          <img
+            src="https://img.freepik.com/premium-photo/online-shopping-icon-smart-phone-global-concept_117856-2469.jpg?w=2000"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body">
+          <div class="">
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+              <img
+                src="https://cdn.mos.cms.futurecdn.net/KDLf9ksbVWHmoGCXp7jJKM-1200-80.jpg"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <h1 class="text-2xl font-bold">Special Discount Offer</h1>
+                <p className="text-md text-white">For 12-12</p>
+                <div class="stat bg-red-700 w-28 h-12 mt-3 rounded-full">
+                  <div class="stat-value text-sm text-white">30% Off</div>
                 </div>
-            </li>
-            <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="https://i.pinimg.com/originals/2b/1e/ef/2b1eefb30882bab730689fa889b5561c.jpg" alt="Bonnie image"/>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Mohesh Babu
-                        </p>
-                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                            Mohesh@babu.com
-                        </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                        $3467
-                    </div>
+                <h1 class="py-6 text-2xl">Price : $ 4582</h1>
+                <button
+                  type="button"
+                  class="text-black bg-amber-700 hover:bg-yellow-700 focus:ring-4 focus:outline-none focus:ring-yellow-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-amber-700 dark:hover:bg-yellow-700 dark:focus:ring-yellow-700"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="mr-2 -ml-1 w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                  </svg>
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="card w-full shadow-xl image-full">
+        <figure>
+          <img
+            src="https://searchengineland.com/wp-content/seloads/2015/02/ecommerce-shopping-cart-keyboard-ss-1920.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="card-body h-32">
+          <div class="">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="https://cdn.vox-cdn.com/thumbor/DND15zKBC9GE0ZEI2FV88kYINe0=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/6687707/20160621-hp-spectre-hero.0.jpg"
+                class="max-w-sm rounded-lg shadow-2xl mt-6 justify-center items-center" alt="David"
+              />
+              <div>
+                <h1 class="text-2xl font-bold">Best Price & Great Quality</h1>
+                <div class="stat bg-red-700 rounded-full w-28 h-12 mt-3">
+                  <div class="stat-value text-sm text-white">50% Off</div>
                 </div>
-            </li>
-            <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dhanush_at_VIP_2_Success_Meet.jpg/220px-Dhanush_at_VIP_2_Success_Meet.jpg" alt="Michael image"/>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Danush
-                        </p>
-                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                            Danush@kodi.com
-                        </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                        $8567
-                    </div>
-                </div>
-            </li>
-            <li class="py-3 sm:py-4">
-                <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="https://static.toiimg.com/photo/80098736/80098736.jpg?v=3" alt="Lana image"/>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Kirti Thakir
-                        </p>
-                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                            Kirti@niyeka.com
-                        </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                        $4367
-                    </div>
-                </div>
-            </li>
-            <li class="pt-3 pb-0 sm:pt-4">
-                <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
-                        <img class="w-8 h-8 rounded-full" src="https://actressalbum.com/wp-content/uploads/2016/04/actressalbum.com_tamanna-milk-beauty-1-645x1024.jpg" alt="Thomas image"/>
-                    </div>
-                    <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Tamanna Bhat
-                        </p>
-                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                            tamanna@bhat.com
-                        </p>
-                    </div>
-                    <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                        $2367
-                    </div>
-                </div>
-            </li>
-        </ul>
-   </div>
+                <h1 class="py-6 text-2xl">Price : $ 4582</h1>
+                <a class="link link-accent">View Product</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-        </div>
     </div>
-</div>
   );
 };
 
