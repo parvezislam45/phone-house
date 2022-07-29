@@ -57,7 +57,6 @@ const content = [
 const Animated = () => {
   return (
     <div>
-      <h1>Your Fevourute Item</h1>
       <div>
         <Slider className="slider-wrapper " autoplay={1000}>
           {content.map((item, index) => (
