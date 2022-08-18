@@ -7,7 +7,7 @@ import Samsung from './Components/Product/Samsung/Samsung';
 import Oneplus from './Components/Product/OnePlus/Oneplus';
 import Iphone from './Components/Product/Iphone/Iphone';
 import Watch from './Components/Product//Watch/Watch';
-import Airpods from './Components/Product/Airpods/Airpods';
+import Signup from './Components/Pages/Signup';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path = 'oneplus' element = {<Oneplus></Oneplus>}></Route>
         <Route path = 'iphone' element = {<Iphone></Iphone>}></Route>
         <Route path = 'watch' element = {<Watch></Watch>}></Route>
-        <Route path = 'airpods' element = {<Airpods></Airpods>}></Route>
+        <Route path = 'signup' element = {<Signup></Signup>}></Route>
       </Routes>
     </div>
   );

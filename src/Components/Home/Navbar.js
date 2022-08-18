@@ -11,7 +11,7 @@ const Navbar = () => {
           </label>
           <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
           <li><NavLink to = '/'>Home</NavLink></li>
-          <li><NavLink to = '/macbook'>Macbook</NavLink></li>
+          <li><NavLink to = '/signup'>Sign-Up</NavLink></li>
           <li><NavLink to = '/iphone'>Iphone</NavLink></li>
           <li><NavLink to = '/samsung'>Samsung</NavLink></li>
           <li><NavLink to = '/oneplus'>One-Plus</NavLink></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0 nav text-sky-400">
           <li><NavLink to = '/'>Home</NavLink></li>
-          <li><NavLink to = '/macbook'>Macbook</NavLink></li>
+          <li><NavLink to = '/signup'>Sign-Up</NavLink></li>
           <li><NavLink to = '/iphone'>Iphone</NavLink></li>
           <li><NavLink to = '/samsung'>Samsung</NavLink></li>
           <li><NavLink to = '/oneplus'>One-Plus</NavLink></li>
